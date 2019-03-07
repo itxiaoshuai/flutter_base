@@ -32,54 +32,54 @@ class _MainPageState extends State<MainPage> {
 
   //初始化图标资源
   List<Icon> _tabSelectedImages = [
-    Icon(
+    new Icon(
       Icons.home,
       size: 25.0,
       color: Colors.blue,
     ),
-    Icon(
+    new Icon(
       Icons.view_comfy,
       size: 25.0,
       color: Colors.blue,
     ),
-    Icon(
+    new Icon(
       Icons.school,
       size: 25.0,
       color: Colors.blue,
     ),
-    Icon(
+    new Icon(
       Icons.navigation,
       size: 25.0,
       color: Colors.blue,
     ),
-    Icon(
+    new Icon(
       Icons.person,
       size: 25.0,
       color: Colors.blue,
     ),
   ];
   List<Icon> _tabImages = [
-    Icon(
+    new Icon(
       Icons.home,
       size: 25.0,
       color: Colors.grey,
     ),
-    Icon(
+    new Icon(
       Icons.view_comfy,
       size: 25.0,
       color: Colors.grey,
     ),
-    Icon(
+    new Icon(
       Icons.school,
       size: 25.0,
       color: Colors.grey,
     ),
-    Icon(
+    new Icon(
       Icons.navigation,
       size: 25.0,
       color: Colors.grey,
     ),
-    Icon(
+    new Icon(
       Icons.person,
       size: 25.0,
       color: Colors.grey,
@@ -99,7 +99,6 @@ class _MainPageState extends State<MainPage> {
         ],
         index: _tabIndex,
       ),
-
       bottomNavigationBar: CupertinoTabBar(
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(icon: getTabIcon(0), title: new Text('首页')),
